@@ -8,7 +8,7 @@ public class BankAcc {
     protected int bal;
 
     BankAcc() {
-        first_name = "";
+        first_name = " ";
         last_name = "";
         Address = "";
         acc_no = 0;
