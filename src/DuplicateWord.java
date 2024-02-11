@@ -9,7 +9,7 @@ public class DuplicateWord {
         //Split the string into words using built-in function    
         String words[] = string.split(" ");
 
-        System.out.println("Duplicate words in a given string : ");
+        System.out.println("Duplicate words in a given string: ");
         for(int i = 0; i < words.length; i++) {
             count = 1;
             for(int j = i+1; j < words.length; j++) {
