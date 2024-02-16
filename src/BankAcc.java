@@ -9,7 +9,7 @@ public class BankAcc {
 
     BankAcc() {
         first_name = " ";
-        last_name = "";
+        last_name = " ";
         Address = "";
         acc_no = 0;
         bal = 0;
