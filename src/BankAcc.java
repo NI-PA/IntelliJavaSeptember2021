@@ -26,7 +26,7 @@ public class BankAcc {
 
     public void withdraw(int amount) {
         if (bal - amount < 1000) {
-            System.out.println("Error : Balance can't be less than Rs 1000 ");
+            System.out.println("Error : Balance can't be less than Rs. 1000 ");
         }
         else {
             bal = bal - amount;
